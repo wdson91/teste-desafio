@@ -1,5 +1,5 @@
 const express = require('express')
-const rotas = express();
+const rotas = express.Router();
 
 const listarCategories = require('../Controllers/CategoryControl');
 
