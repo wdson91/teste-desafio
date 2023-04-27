@@ -5,8 +5,8 @@ const listarCategories = require('../Controllers/CategoryControl');
 
 const loginUser = require('../Controllers/UserLogin');
 const { cadastrarUser, detalharUser, editarUser } = require('../Controllers/UserControl');
-const validationMiddlewareUser = require('../Middlewares/userValidation');
-const loginValidationMiddleware = require('../Middlewares/loginValidation')
+const validationMiddlewareUser = require('../middlewares/userValidation');
+const loginValidationMiddleware = require('../middlewares/loginValidation')
 
 
 rotas.get('/', express.static("desafio-front"));
