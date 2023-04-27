@@ -6,7 +6,6 @@
   "scripts": {
     "start": "node src/Index.js",
     "dev": "nodemon src/Index.js"
-    
   },
   "repository": {
     "type": "git",
@@ -20,7 +19,6 @@
   },
   "homepage": "https://github.com/pprad0/pdv-Node.Js-grupo06#readme",
   "dependencies": {
-    "@hapi/joi": "^15.0.3",
     "bcrypt": "^5.1.0",
     "class-validator": "^0.14.0",
     "cors": "^2.8.5",
@@ -30,11 +28,8 @@
     "joi-translation-pt-br": "^0.0.6",
     "jsonwebtoken": "^9.0.0",
     "knex": "^2.4.2",
+    "nodemon": "^2.0.22",
     "pg": "^8.10.0",
-    "yup": "^1.1.1",
-    "nodemon": "^2.0.22"
-  },
-  "devDependencies": {
-    
+    "yup": "^1.1.1"
   }
 }
